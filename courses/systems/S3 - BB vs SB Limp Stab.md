@@ -120,3 +120,5 @@ xplanation: On rainbow, BDFDs are harder to find (only suited combos). So they t
 - S9: Defending Flops vs C-bet (defending as the preflop caller, similar MDF framework)
 - S7: C-bet Folding Flops (the other side — when hero is the c-bettor facing a raise)
 - Primer: BB defense perimeters (preflop foundation for this system)
+- [LP4](../limped-pots/LP4 - BB Limped Pot Defense.md): the full limped-pot defense system this stab lives inside
+- [LP2](../limped-pots/LP2 - SB Flop Betting After a Limp.md): the attacker side of the limped flop

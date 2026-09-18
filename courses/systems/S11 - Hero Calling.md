@@ -117,3 +117,4 @@ ou should still call with, that should be worth zero"
 - S10: River Value Betting (when to bet rather than call)
 - S9: Defending Flops (the flop defense that gets you to the river)
 - Primer: RFI perimeters (critical for knowing which cards block bluffs vs value)
+- [RS2](../river-simplifications/RS2 - Condensed In Position.md): the bluff-catching wall toy game behind hero calls

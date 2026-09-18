@@ -114,3 +114,5 @@ Correct: 0
 - S8: Bet Sizing In Position (how big to bet — this system is about whether to bet)
 - S4: River Bluffing (the other side — when to bluff the river)
 - S11: Hero Calling (the other side — when to call villain's river bet)
+- [RS2](../river-simplifications/RS2 - Condensed In Position.md): the condensed-IP toy game behind thin value and check-behinds
+- [RS6](../river-simplifications/RS6 - Small Bets In Position.md): when small merged river bets replace big polar ones

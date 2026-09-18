@@ -83,3 +83,4 @@ es more, SB folds more, Nothing changes]
 - BM2: Opening Into Covered Stacks (same principles, BvB context)
 - BM3: Opening Into Covering Stacks (same principles, BvB context)
 - BM5: Blinds Facing Open (the defense side of BvB)
+- [LP1](../limped-pots/LP1 - SB Limp Raise or Fold.md): the chip-EV version of this BvB preflop node (no ICM pressure)

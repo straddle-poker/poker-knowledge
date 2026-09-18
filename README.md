@@ -36,6 +36,13 @@ hands at specific stack depths.
   - `multiway-systems/` — Multiway Poker Systems: 11 systems (MW1–MW11) for
     3+ player pots — clock theory, who bets multiway flops, sandwiched
     defense, flop squeezes, 3-way probing and seat-based river play
+  - `limped-pots/` — Small Blind Mastery: Limped Pots (BBZ): 8 systems
+    (LP1–LP8) on blind-vs-blind limped pots — SB limp/raise/fold structure
+    by depth, limped flop stabs and checks, BB defense vs limps, facing
+    isolation, geometric turn sizing, river value and bluffs, and exploits
+  - `river-simplifications/` — River Simplifications (BBZ): 7 toy-game
+    systems (RS1–RS7) at SPR 1/2/5 — symmetric ranges, condensed IP/OOP,
+    traps, small merged bets, and polar OOP vs condensed IP
 
 ## Provenance / regeneration
 

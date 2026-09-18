@@ -123,3 +123,5 @@ s)
 - S10: River Value Betting (the other side of river play — when to value bet)
 - S11: Hero Calling (the other side — when to call villain's bets)
 - S5: Barreling Med Hands (pyramid principle — bet top/bottom, check middle)
+- [RS1](../river-simplifications/RS1 - Symmetric Ranges by SPR.md): the toy-game math behind bluff ratios and MDF
+- [RS7](../river-simplifications/RS7 - Polar OOP vs Condensed IP.md): polar leads and the trap cap on river bluffs

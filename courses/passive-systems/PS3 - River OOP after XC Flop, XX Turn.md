@@ -122,3 +122,4 @@ If you check and IP bets: defend near MDF with the C region; check-raise jam you
 - [PS6](PS6 - River OOP after XX Flop, XX Turn.md): River OOP after XX Flop – XX Turn (no flop call — different range geometry)
 - [S4](../systems/S4 - River Bluffing.md): check-calling systems (how you got here)
 - [PS1](PS1 - BB Turn Probe Betting.md): turn probing (the same spot one street earlier)
+- [RS3](../river-simplifications/RS3 - Condensed Out of Position.md): the OOP condensed-wall toy game for this exact configuration
