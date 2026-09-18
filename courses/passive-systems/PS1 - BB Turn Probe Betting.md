@@ -121,7 +121,8 @@ Transition to the river systems: PS3 (you called a flop bet) or PS6 (flop went X
 - "A check from the preflop raiser is a condensing action... it is usually correct for their opponent to do some amount of polar betting on the next street with their newfound nuts advantage." — GTO Wizard
 
 ## Cross-References
-- [PS2](PS2 - Defending vs BB Probe Bets.md): Defending vs BB Probe Bets (the other side of this node)
-- [P3](../pressure-systems/P3 - Flop Big-Betting vs BB.md): Flop Big-Betting vs BB and P4: Flop Check-Raising from BB (what to do when they *do* c-bet)
-- [S1](../systems/S1 - UTG vs BB C-bet.md)/[S2](../systems/S2 - BTN vs BB C-bet & Check.md): C-betting systems (what IP's check-back diverges from)
-- [PS6](PS6 - River OOP after XX Flop, XX Turn.md): River OOP after XX Flop – XX Turn (if your probe checks through)
+- PS2: Defending vs BB Probe Bets (the other side of this node)
+- MW7: Missed Turn Probe Bets (multiway-systems — the 3-way analog, where a check-around caps almost nobody and probes need nut parity)
+- P3: Flop Big-Betting vs BB and P4: Flop Check-Raising from BB (pressure-systems topic — what to do when they *do* c-bet)
+- S1/S2: C-betting systems (what IP's check-back diverges from)
+- PS6: River OOP after XX Flop – XX Turn (if your probe checks through)

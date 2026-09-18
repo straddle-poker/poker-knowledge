@@ -121,7 +121,8 @@ You raised preflop, checked back the flop, and the BB stabs the turn. Your first
 - "All this checking serves to 'promote' hands, making them more valuable than they were on the previous street, even when they have not improved in rank." — GTO Wizard
 
 ## Cross-References
-- [PS1](PS1 - BB Turn Probe Betting.md): BB Turn Probe Betting (your opponent's side of this node)
-- [S1](../systems/S1 - UTG vs BB C-bet.md)/[S2](../systems/S2 - BTN vs BB C-bet & Check.md): c-betting systems — what a flop check-back diverges from
-- [S4](../systems/S4 - River Bluffing.md): check-calling systems (defensive foundations)
-- [Bubble Mastery](../bubble-mastery/): ICM tightening of probe-calls
+- PS1: BB Turn Probe Betting (your opponent's side of this node)
+- MW11: Missed River Calls (multiway-systems — seat-based defense: the last player carries the burden, overcalls beat two ranges)
+- S1/S2: c-betting systems — what a flop check-back diverges from
+- S4: check-calling systems (defensive foundations)
+- bubble-mastery: ICM tightening of probe-calls

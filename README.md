@@ -33,6 +33,9 @@ hands at specific stack depths.
     (BM1–BM11) + ICM/FGS foundations primer and course intro
   - `passive-systems/` — Passive Poker Systems: 8 systems (PS1–PS8) on turn
     probe betting, defending probes and river play after checked lines
+  - `multiway-systems/` — Multiway Poker Systems: 11 systems (MW1–MW11) for
+    3+ player pots — clock theory, who bets multiway flops, sandwiched
+    defense, flop squeezes, 3-way probing and seat-based river play
 
 ## Provenance / regeneration
 
