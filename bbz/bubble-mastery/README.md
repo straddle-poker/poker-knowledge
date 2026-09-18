@@ -1,6 +1,6 @@
 # Bubble Mastery
 
-Bubble Mastery (BBZ course) — ICM-driven preflop play: stack-depth frameworks for opening and defending under bubble pressure. `primer.md` covers the ICM/FGS foundations; each `BM<n>.md` is one system with its stack matrix, rules and exceptions.
+Bubble Mastery (BBZ course) — ICM-driven preflop play: stack-depth frameworks for opening and defending under bubble pressure. `bm-primer.md` covers the ICM/FGS foundations; each `BM<n>.md` is one system with its stack matrix, rules and exceptions.
 
 ## Files
 
@@ -15,5 +15,5 @@ Bubble Mastery (BBZ course) — ICM-driven preflop play: stack-depth frameworks 
 - [BM7 — Identifying Bubble Impact](BM7 - Identifying Bubble Impact.md) — Identifying Bubble Impact
 - [BM8 — BTN Covers BB](BM8 - BTN Covers BB.md) — BTN Covers BB (Postflop)
 - [BM9 — BB Covers BTN](BM9 - BB Covers BTN.md) — BB Covers BTN (Postflop)
-- [`intro.md`](intro.md) — Bubble Mastery — Course Introduction
-- [`primer.md`](primer.md) — ICM & FGS Foundations
+- [`bm-intro.md`](bm-intro.md) — Bubble Mastery — Course Introduction
+- [`bm-primer.md`](bm-primer.md) — ICM & FGS Foundations
