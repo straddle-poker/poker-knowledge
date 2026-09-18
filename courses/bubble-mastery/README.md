@@ -4,16 +4,16 @@ Bubble Mastery (BBZ course) — ICM-driven preflop play: stack-depth frameworks 
 
 ## Files
 
-- [`BM1.md`](BM1.md) — ICM vs ChipEV Preflop
-- [`BM10.md`](BM10.md) — UTG Covers BB (Postflop)
-- [`BM11.md`](BM11.md) — Polar Opens · Split Range C-Betting
-- [`BM2.md`](BM2.md) — Opening Into Covered Stacks (You Are Covered)
-- [`BM3.md`](BM3.md) — Opening Into Covering Stacks (You Cover Them)
-- [`BM4.md`](BM4.md) — Blind vs Blind (Bubble)
-- [`BM5.md`](BM5.md) — Blinds Facing Open (Bubble)
-- [`BM6.md`](BM6.md) — Dealing With 3-Bets (Bubble)
-- [`BM7.md`](BM7.md) — Identifying Bubble Impact
-- [`BM8.md`](BM8.md) — BTN Covers BB (Postflop)
-- [`BM9.md`](BM9.md) — BB Covers BTN (Postflop)
+- [BM1 — ICM vs ChipEV Preflop](BM1 - ICM vs ChipEV Preflop.md) — ICM vs ChipEV Preflop
+- [BM10 — UTG Covers BB](BM10 - UTG Covers BB.md) — UTG Covers BB (Postflop)
+- [BM11 — Polar Opens · Split Range C-Betting](BM11 - Polar Opens and Split Range C-Betting.md) — Polar Opens · Split Range C-Betting
+- [BM2 — Opening Into Covered Stacks](BM2 - Opening Into Covered Stacks.md) — Opening Into Covered Stacks (You Are Covered)
+- [BM3 — Opening Into Covering Stacks](BM3 - Opening Into Covering Stacks.md) — Opening Into Covering Stacks (You Cover Them)
+- [BM4 — Blind vs Blind](BM4 - Blind vs Blind.md) — Blind vs Blind (Bubble)
+- [BM5 — Blinds Facing Open](BM5 - Blinds Facing Open.md) — Blinds Facing Open (Bubble)
+- [BM6 — Dealing With 3-Bets](BM6 - Dealing With 3-Bets.md) — Dealing With 3-Bets (Bubble)
+- [BM7 — Identifying Bubble Impact](BM7 - Identifying Bubble Impact.md) — Identifying Bubble Impact
+- [BM8 — BTN Covers BB](BM8 - BTN Covers BB.md) — BTN Covers BB (Postflop)
+- [BM9 — BB Covers BTN](BM9 - BB Covers BTN.md) — BB Covers BTN (Postflop)
 - [`bm-intro.md`](bm-intro.md) — Bubble Mastery — Course Introduction
 - [`bm-primer.md`](bm-primer.md) — ICM & FGS Foundations

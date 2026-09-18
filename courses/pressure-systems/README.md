@@ -6,10 +6,10 @@ Pressure Poker Systems — the aggression/pressure layer of the BBZ systems ecos
 
 ## Files
 
-- [`P1.md`](P1.md) — Preflop Squeezing (three switches, IP vs OOP buckets, sizing, 4-bet response)
-- [`P2.md`](P2.md) — Facing Squeezes (opener vs sandwiched response, call-or-fold equilibrium)
-- [`P3.md`](P3.md) — Flop Big-Betting vs BB (nut advantage, overbet sizing, "did the board change?")
-- [`P4.md`](P4.md) — Flop Check-Raising from BB (polar boards, value from top pair, draw bluffs)
+- [P1 — Preflop Squeezing](P1 - Preflop Squeezing.md) — Preflop Squeezing (three switches, IP vs OOP buckets, sizing, 4-bet response)
+- [P2 — Facing Squeezes](P2 - Facing Squeezes.md) — Facing Squeezes (opener vs sandwiched response, call-or-fold equilibrium)
+- [P3 — Flop Big-Betting vs BB](P3 - Flop Big-Betting vs BB.md) — Flop Big-Betting vs BB (nut advantage, overbet sizing, "did the board change?")
+- [P4 — Flop Check-Raising from the BB](P4 - Flop Check-Raising from the BB.md) — Flop Check-Raising from BB (polar boards, value from top pair, draw bluffs)
 
 ## Related
 

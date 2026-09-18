@@ -6,10 +6,10 @@ Bounty MTT systems — how Progressive Knockout and Mystery Bounty tournaments w
 
 ## Files
 
-- [`B1.md`](B1.md) — Bounty Math & Risk Premiums (bounty-to-chip conversion, Bounty Power, equity drop, negative risk premiums)
-- [`B2.md`](B2.md) — PKO Preflop Adjustments (covering vs covered ranges, BB defense, RFI shifts, multiway)
-- [`B3.md`](B3.md) — PKO Phase Strategy (depleting bounty resource, early aggression, stack-size tactics)
-- [`B4.md`](B4.md) — Mystery Bounty System (four phases, Average KO, envelope effects)
+- [B1 — Bounty Math & Risk Premiums](B1 - Bounty Math & Risk Premiums.md) — Bounty Math & Risk Premiums (bounty-to-chip conversion, Bounty Power, equity drop, negative risk premiums)
+- [B2 — PKO Preflop Adjustments](B2 - PKO Preflop Adjustments.md) — PKO Preflop Adjustments (covering vs covered ranges, BB defense, RFI shifts, multiway)
+- [B3 — PKO Phase Strategy](B3 - PKO Phase Strategy.md) — PKO Phase Strategy (depleting bounty resource, early aggression, stack-size tactics)
+- [B4 — Mystery Bounty System](B4 - Mystery Bounty System.md) — Mystery Bounty System (four phases, Average KO, envelope effects)
 
 ## Related
 

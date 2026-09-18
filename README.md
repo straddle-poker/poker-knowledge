@@ -17,25 +17,38 @@ hands at specific stack depths.
     `bb-vs-btn.md`, `btn-vs-3bet-sb.md`): frequency summary tables per model
     and depth, plus the raw `class:freq` range strings
 
-- `courses/` — course extracts (structured study notes; each file
-  carries frontmatter provenance):
-  - `systems/` — Simple Poker Systems: 12 systems (c-betting, barreling,
-    river play, hand-strength classification) + preflop primer, intro,
-    cross-system conclusion
-  - `bubble-mastery/` — Bubble Mastery: 11 ICM-driven preflop systems +
-    ICM/FGS foundations primer and course intro
+- `courses/` — course extracts and reconstructions (structured study notes;
+  each file carries frontmatter provenance). System files are named
+  `CODE - Title.md` (e.g. `S1 - UTG vs BB C-bet.md`):
+  - `systems/` — Simple Poker Systems: 12 systems (S1–S12) covering
+    c-betting, barreling, river play and hand-strength classification,
+    plus preflop primer, intro and cross-system conclusion
+  - `pressure-systems/` — Pressure Systems (Lex Veldhuis): 4 systems (P1–P4)
+    on preflop squeezing, facing squeezes, flop big-betting vs BB and BB
+    flop check-raising
+  - `bounty-mtt/` — Bounty MTT (newguy89): 4 systems (B1–B4) on PKO bounty
+    math and equity drop, covering/covered preflop adjustments, phase
+    strategy and the Mystery Bounty system
+  - `bubble-mastery/` — Bubble Mastery: 11 ICM-driven preflop systems
+    (BM1–BM11) + ICM/FGS foundations primer and course intro
+  - `passive-systems/` — Passive Poker Systems: 8 systems (PS1–PS8) on turn
+    probe betting, defending probes and river play after checked lines
 
 ## Provenance / regeneration
 
 `preflop/` is generated from the solution captures in the
-`straddle-solutions` submodule (checked out at `../bbz/straddle-solutions`);
-`courses/` is copied from its `extracted/` directory (the extract-transcript
-skill regenerates those from `transcripts/`):
+`straddle-solutions` submodule (checked out at `../bbz/straddle-solutions`):
 
     python3 ../bbz/straddle-solutions/scripts/solutions_to_llm.py --out preflop
 
-Re-run after the captures update, then commit. The raw solutions are the
-source of truth; hand-edits to generated files will be overwritten.
+`courses/systems/` and `courses/bubble-mastery/` are copied from the
+submodule's `extracted/` directory (the extract-transcript skill regenerates
+those from `transcripts/`). The other courses — `pressure-systems/`,
+`bounty-mtt/`, `passive-systems/` — are reconstructions from free public
+sources; each file's frontmatter carries its source URLs and they are not
+course transcripts. Re-run the generator after the captures update, then
+commit. The raw solutions are the source of truth; hand-edits to generated
+files will be overwritten.
 
 ## Vibe plugin (local library)
 
