@@ -26,8 +26,7 @@ Your response depends entirely on **which seat you are**:
 - **The squeezer profits from dead money, not from the pot.** They expect to fold at least one of you out. Deny that profit by defending correctly with the right hands, not by defending wide.
 - **The sandwiched player is structurally punished for raising.** Raising into a live player behind exposes you to a potential squeeze/4-bet from a stronger range; in ICM spots the cost of elimination adds further pressure against raising. [BBZ — multiway pots]
 - **Respect the nut ratio of players left to act.** Your continuing frequency is capped by what the players behind you can hold.
-- **The opener's range advantage is real but capped.** Solved 40bb data: an EP opener 4-bets only ~2–3% of hands and calls ~10–15% vs a 3-bet heads-up; vs a squeeze (extra player in the middle) the call frequency dr
-ops further because you don't close action.
+- **The opener's range advantage is real but capped.** Solved 40bb data: an EP opener 4-bets only ~2–3% of hands and calls ~10–15% vs a 3-bet heads-up; vs a squeeze (extra player in the middle) the call frequency drops further because you don't close action.
 - **ICM tightens everything.** On the bubble, both 4-betting (as a semi-bluff) and calling OOP shrink; the squeezer's leverage comes precisely from your survival pressure — defend with the top of your range and hands that play well postflop, not with marginal blockers.
 
 ## Decision Rules
@@ -48,8 +47,7 @@ ops further because you don't close action.
 - **Cold-4-bet:** premiums only (KK+). Everything else folds.
 - Your overcall re-opens the pot for the opener — do it with playable suited hands only, and only deep.
 
-## Sizing (as
- the opener, 4-betting)
+## Sizing (as the opener, 4-betting)
 | Stacks | 4-bet size |
 |---|---|
 | 50–60bb | ~2.2–2.4× the squeeze (leaves a fold or a river shove) |
@@ -77,8 +75,7 @@ ops further because you don't close action.
 - "The capped flat is the squeeze's food — don't flat weak pre and then feel priced in"
 
 ## Quiz Spots
-- 40bb, you open HJ, BB squeezes, you
- hold AJs → Mix, lean fold; you're OOP vs the squeezer postflop. Call only vs demonstrated light squeezing
+- 40bb, you open HJ, BB squeezes, you hold AJs → Mix, lean fold; you're OOP vs the squeezer postflop. Call only vs demonstrated light squeezing
 - 40bb, you flatted an MP open on the CO, BB squeezes, you hold JJ → Call (top of your capped range; note the SB may still act behind — do not 4-bet)
 - 30bb, you open UTG, BTN squeezes, you hold AK → Jam
 - 25bb bubble, you open CO, a covering BB squeezes, you hold JJ → Default fold vs the covering stack with steep pay jumps; jam only if the field is very shallow
@@ -98,8 +95,7 @@ ops further because you don't close action.
   Correct: 0
   Explanation: The strongest hands are distributed by seat; a live player behind you constrains how aggressively you can respond.
 - Q: As the sandwiched cold-caller, why can't you profitably 4-bet bluff vs a squeeze?
-  Options: [Your flat capped your range — you're pressing into the squeezer's strong range and the opener's live range, Squeezers alwa
-ys have aces, 4-bets are too big, Calling has better odds]
+  Options: [Your flat capped your range — you're pressing into the squeezer's strong range and the opener's live range, Squeezers always have aces, 4-bets are too big, Calling has better odds]
   Correct: 0
   Explanation: By flatting instead of 3-betting you announced a capped range. Cold-4-bet bluffs play terribly into two stronger ranges; call-or-fold is the equilibrium shape for the sandwich seat.
 

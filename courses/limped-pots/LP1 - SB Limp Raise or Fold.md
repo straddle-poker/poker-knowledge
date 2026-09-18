@@ -91,7 +91,7 @@ When the action folds to the small blind, the question is not *whether* to enter
 - [LP2](LP2 - SB Flop Betting After a Limp.md): what to do when the BB checks back and you see a flop
 - [LP5](LP5 - Playing vs the BB Isolation.md): the other side — facing a raise over your limp
 - [BM4](../bubble-mastery/BM4 - Blind vs Blind.md): the ICM/bubble version of the BvB preflop node
-- [preflop-ranges](../preflop-ranges/KNOWLEDGE.md): solved RFI frequencies at specific depths
+- Preflop-ranges knowledge topic: solved RFI frequencies at specific depths
 
 ## Rules Q&A
 - Q: At which stack depth does the SB have *no* non-all-in raising range?

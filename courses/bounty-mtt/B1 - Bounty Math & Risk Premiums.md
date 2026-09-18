@@ -27,8 +27,7 @@ Every PKO adjustment — wider calls, thinner value, more aggression — flows f
 - **Bounties compound:** eliminating a player who already collected bounties is worth more than eliminating one who hasn't.
 - **Negative risk premiums apply ONLY to covering stacks.** If you don't cover the player, you cannot access their bounty — no equity drop, and normal (or higher) risk premiums apply.
 - **Equity drop:** in all-in situations you need less equity to justify calling when you cover the shove. Sometimes called equity discount or reduction.
-- **Bounties are a depleting resou
-rce:** each elimination removes a starting bounty from circulation; ICM pressure grows as the field shrinks. Bounty EV is near its peak EARLY; only at the very late stages does the dynamic partially reverse (winner claims their own accumulated head).
+- **Bounties are a depleting resource:** each elimination removes a starting bounty from circulation; ICM pressure grows as the field shrinks. Bounty EV is near its peak EARLY; only at the very late stages does the dynamic partially reverse (winner claims their own accumulated head).
 
 ## The Two Core Calculations
 
@@ -64,8 +63,7 @@ Worked example (from BBZ guide): $215 buy-in, 1,000 entries, 500 players left, 3
 2. **Early stages:** use the simple bounty-to-chip conversion.
 3. **Mid/late stages:** use Bounty Power (recompute as fields shrink and pools deplete).
 4. **If you don't cover:** no adjustment — evaluate at standard (or ICM-elevated) risk premium.
-5. **Direction of error:** in regular ICM the better mistake is stacking off too tight; in PKOs (especially early)
- the better mistake is **stacking off too wide**. If unsure in-game, err toward aggression.
+5. **Direction of error:** in regular ICM the better mistake is stacking off too tight; in PKOs (especially early) the better mistake is **stacking off too wide**. If unsure in-game, err toward aggression.
 
 ## Common Leaks
 - **Treating PKOs like regular MTTs** — you're playing at a structural disadvantage if you ignore bounties.
@@ -92,8 +90,7 @@ Worked example (from BBZ guide): $215 buy-in, 1,000 entries, 500 players left, 3
   Correct: 0
   Explanation: The three-part split: immediate payout (50%), bounty increase on your own head (25%), rolling bounty value carried forward (25%). This compounding structure is what makes PKOs progressive.
 - Q: Who enjoys negative risk premiums in a PKO?
-  Options: [Only covering stacks — you must cover to access the bounty, Everyone, Short stacks,
- The chip leader only on the bubble]
+  Options: [Only covering stacks — you must cover to access the bounty, Everyone, Short stacks, The chip leader only on the bubble]
   Correct: 0
   Explanation: The bounty offsets the cost of risking your stack only if you can actually win it. Covered players cannot access the covering stack's bounty, so their risk premiums stay positive.
 - Q: What is Bounty Power?

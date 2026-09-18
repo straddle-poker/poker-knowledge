@@ -24,8 +24,7 @@ Hero defended the BB, checked, and faced a c-bet. This system identifies when to
 - **Polarity drives check-raising.** On Ace-high boards, the BB often lacks middling hands — they connect or completely miss. This polarity causes a proportionally large amount of continues as a check-raise as opposed to a check-call. [GTO Wizard]
 - **OOP uses a large check-raise size with two pair+ and bluffs** — the large size makes even IP's strong top pair indifferent on the flop. [GTO Wizard]
 - **Top pairs are check-raises at pure frequency in the right spots.** Luckyfish (BBZ coach): defending KJ on K♦8♦6♣ vs a CO 33% c-bet is "a spot where we check-raise at a pure frequency" — the value region starts at strong top pair, not just monsters. [BBZ]
-- **The low-stakes exploit: opponents underfold vs check-raises.** "Our opponents — particularly at lower stakes — are simply not going to continue with 
-hands they really should. The villain in this spot should really be calling with some combos of QT, JT, and ace-highs which can turn straight draws." If they fold those, check-raising prints. [BBZ/Luckyfish]
+- **The low-stakes exploit: opponents underfold vs check-raises.** "Our opponents — particularly at lower stakes — are simply not going to continue with hands they really should. The villain in this spot should really be calling with some combos of QT, JT, and ace-highs which can turn straight draws." If they fold those, check-raising prints. [BBZ/Luckyfish]
 - **Draws are the bluff engine.** OESDs (T8 on 972), flush draws, and backdoor combo draws (QJs, 98s, J9s) prefer check-raise lines — equity now, fold equity against the c-bettor's air region. [BBZ, GTO Wizard]
 - **On paired flops, lighter check-raises are overcards with backdoor draws** (e.g., KJ with a bdfd on T22r). The bettor must continue around 40% (MDF) or the BB gets profitable bluffs with any two cards. [GTO Wizard]
 - **Multiway check-raising needs stronger value and fewer bluffs** — respect the nut ratio of live players. (BBZ multiway principle)
@@ -40,8 +39,7 @@ hands they really should. The villain in this spot should really be calling with
 
 ## Decision Rules
 1. **Who has the nut advantage on this board?** BB-favorable (low, connected, or BB-polar ace-high) → check-raise region on. Raiser-favorable (broadway) → check-call/check-fold only (Bucket C).
-2. **Assign the value region:** two pair+, sets, strong top pairs (top pair top kicker-ish), nut draws. On paired/low boards:
- trips and overpairs.
+2. **Assign the value region:** two pair+, sets, strong top pairs (top pair top kicker-ish), nut draws. On paired/low boards: trips and overpairs.
 3. **Assign the bluff region:** OESDs, good flush draws, combo draws, overcards with backdoor draws (esp. on paired/rainbow flops). Take bluffs from hands with equity, not air.
 4. **Size:** large — ~3x the c-bet as the default (GTO examples run ~4x vs small bets to deny cheap realization). Big enough to make IP's medium region indifferent.
 5. **Vs the c-bettor's response:** if they only continue with premiums, keep printing with draws (they overfold). If they call wide and 3-bet jam light, tighten the bluff region, keep the value.
@@ -63,8 +61,7 @@ hands they really should. The villain in this spot should really be calling with
 - **Multiway (HJ open, CO call, BB with OESD):** tighten — check-raise only nut draws and two pair+; fold weak draws (nut ratio).
 
 ## Common Leaks
-- **Check-raising only mon
-sters** — the value region starts at strong top pair; face-up ranges get exploited.
+- **Check-raising only monsters** — the value region starts at strong top pair; face-up ranges get exploited.
 - **Check-raising into the raiser's nut-advantage boards** — raising when you're range-disadvantaged burns money (P3 Bucket A from the other side).
 - **Bluffing with air instead of draws** — check-raise bluffs need equity to survive a call.
 - **Small check-raise sizes** — the point is to make IP's medium region indifferent; min-raises give odds and accomplish nothing.
@@ -92,8 +89,7 @@ sters** — the value region starts at strong top pair; face-up ranges get explo
   Options: [BB range is polar there — connects or misses, lacks middling hands, BB always check-raises, Aces favor the BB's preflop range, Check-calling is never correct]
   Correct: 0
   Explanation: GTO Wizard flop heuristics: on ace-high boards the BB often lacks middling hands; the polarity converts continues into check-raises rather than check-calls, with a large size and two pair+ plus bluffs.
-- Q
-: Where does the check-raise value region start, per Luckyfish?
+- Q: Where does the check-raise value region start, per Luckyfish?
   Options: [Strong top pair (e.g., KJ on K86), Only the nuts, Only sets, Any pair]
   Correct: 0
   Explanation: Luckyfish check-raises KJ on K♦8♦6♣ "at a pure frequency" — top pair strong kicker is value in the right spot, not just monsters.
@@ -114,8 +110,7 @@ sters** — the value region starts at strong top pair; face-up ranges get explo
 - "Overcards with backdoor draws are the ideal candidates on rainbow boards" — GTO Wizard (paired flops)
 - "the bettor's folding frequency hovers right around 40%. This is the Minimum Defense Frequency" — GTO Wizard (vs BB check-raise on paired flops)
 
-## Cross-Refer
-ences
+## Cross-References
 
 (S-series systems and the preflop primer live in [`../systems/`](../systems/).)
 - P3: Flop Big-Betting vs BB (the c-bettor's weapon this counters — learn both sides)

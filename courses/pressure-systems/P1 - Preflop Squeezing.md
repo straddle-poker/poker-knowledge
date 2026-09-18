@@ -31,8 +31,7 @@ A **squeeze** is a 3-bet after an open-raise has been cold-called by at least on
 - **Dead money = your edge.** Each additional cold-caller adds dead money from a capped range → squeeze *more* (especially from the BB), not less.
 - **Squeeze size > 3-bet size.** Extra money in the pot demands a bigger raise to generate fold equity vs capped ranges.
 - **Blockers do double duty.** An Ace blocker removes AA/AK from both villains; pick bluffs that block calls and 4-bets.
-- **MTT > cash for squeezing.** Antes + no rake → more frequent, more polarized squeeze ranges 
-than cash (rake tightens and linearizes cash ranges). [GTO Wizard]
+- **MTT > cash for squeezing.** Antes + no rake → more frequent, more polarized squeeze ranges than cash (rake tightens and linearizes cash ranges). [GTO Wizard]
 - **ICM leverage multiplies the play.** A squeeze is "by definition a pressure play" — calling a squeeze as the opener on the bubble with a player behind is deeply uninviting.
 - **Position shapes everything.** IP squeezes: wider, polarized. OOP squeezes: tighter, linear.
 
@@ -64,8 +63,7 @@ than cash (rake tightens and linearizes cash ranges). [GTO Wizard]
 - BB squeezes more than SB (more dead money, closes preflop action after a flat).
 
 ### Step 3 — Sizing
-| Stacks | Squeeze size (vs ~2.2–2.5bb open + 1 calle
-r) |
+| Stacks | Squeeze size (vs ~2.2–2.5bb open + 1 caller) |
 |---|---|
 | 50–60bb | ~3.2–3.5× open + call amount (≈10–12bb) |
 | 35–50bb | ~3× + calls (≈9–11bb) |
@@ -108,8 +106,7 @@ Each additional caller adds ~1× the open to the size. Goal: too big for the cap
 - Flatting when squeezing is better (last to act + fold equity → squeeze > overcall).
 - Ignoring the caller's profile (targets sticky-capped callers, not light 4-bettors).
 - Squeezing without closing action with live players behind.
-- 
-Same OOP bluff range as IP.
+- Same OOP bluff range as IP.
 
 ## Hand Examples
 - **50bb, HJ opens 2.3, CO flats, BTN:** Bucket A. Squeeze ~10–11bb: value TT+, AJs, AQo; bluffs A2s–A5s, A7s, K8s, Q8s, J8s, 87s.
@@ -146,8 +143,7 @@ Same OOP bluff range as IP.
   Explanation: Dead money from caller(s) demands a bigger size for fold equity. Each caller adds ~1× the open.
 - Q: IP vs OOP squeeze ranges?
   Options: [IP wider/polarized; OOP tighter/linear, Identical, IP tighter, Both linear]
-  Correct
-: 0
+  Correct: 0
   Explanation: IP closes action and plays postflop in position; OOP must linearize and drop low suited connectors.
 - Q: #1 blocker in a squeeze bluff?
   Options: [An Ace — blocks AA/AK/AQ, A small pair, Suited connectors, An offsuit king]

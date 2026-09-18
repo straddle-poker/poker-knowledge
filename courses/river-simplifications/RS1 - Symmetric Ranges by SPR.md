@@ -89,7 +89,7 @@ Toy Game 1 is the benchmark: both players arrive at the river with *symmetric* r
 - [RS2](RS2 - Condensed In Position.md): what happens when the IP range condenses
 - [RS6](RS6 - Small Bets In Position.md): the α table driving small merged bets
 - [LP6](../limped-pots/LP6 - Turn Barrels and Geometric Sizing.md): geometric sizing in real limped pots
-- [gto-fundamentals](../gto-fundamentals/KNOWLEDGE.md): MDF/α and pot-odds derivations
+- gto-fundamentals knowledge topic: MDF/α and pot-odds derivations
 
 ## Rules Q&A
 - Q: Pot-sized river bet in a symmetric toy game. What fraction of your betting range is bluffs?

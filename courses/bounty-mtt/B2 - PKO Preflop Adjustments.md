@@ -24,8 +24,7 @@ Bounty incentives reshape every preflop range. The direction of adjustment is se
 - **Covering stacks are incentivized to play wider and more aggressively.** Solved example (BBZ/GTO Wizard, 100bb, start of tournament): BB defends 61.6% vs UTG RFI in a regular MTT vs **65.1% in a PKO** — and not just wider calling: BB 3-bets jump from 43.85 to 59.55 combos.
 - **Covered stacks tighten.** When you're short and covered, larger stacks correctly get it in lighter against you due to bounty incentives. Your stack-offs happen with less fold equity and against wider ranges than in a regular MTT.
 - **Risk advantage drives the BTN.** Covering both blinds from the button lets you target bounties AND apply ICM pressure — the widest range in the format. Conversely, when shorter and closer to the bubble, the symmetric BTN opening range shrinks significantly (~7%).
-- **Bubble factors are lower in PKOs** vs classic formats, with the biggest impact on late-position players, who increase both non-all-in and all-in raising
- ranges. [GTO Wizard]
+- **Bubble factors are lower in PKOs** vs classic formats, with the biggest impact on late-position players, who increase both non-all-in and all-in raising ranges. [GTO Wizard]
 - **Shoving ranges shift shape when YOU have a big bounty:** with a bounty on your head, prefer shoving pocket pairs over KQo/KTs-type hands — pairs perform better against the ~10% wider calling range you'll face. [GTO Wizard]
 - **Flatting expands in position:** with a UTG bounty available, BTN flats nearly 30% of their range, and their 3-bet range skews toward hands that realize equity if called (since they'll be priced to call 4-bet jams wider). [GTO Wizard]
 - **Isolation isn't always right:** passive play can be preferable when it encourages additional covered players to enter the pot with hands that would fold to aggression — more bounties in the pot can beat isolating one. [GTO Wizard]
@@ -40,8 +39,7 @@ Bounty incentives reshape every preflop range. The direction of adjustment is se
 
 ## Decision Rules
 1. **RFI:** covering players left to act (especially both blinds from BTN) → open wider than classic ranges, mixing in more jam-oriented hands at 15–25bb (jam-heavy hands: pairs, Ax — they maximize equity realization + bounty unlock). Covered → tighten toward the classic baseline or below.
-2. **Facing an all-in (you cover):** apply the B1 equity drop, then call the wider threshold. Solved example: LJ (65bb) vs BTN 26bb reshove — LJ calls 26.8% in a regular MTT vs **36.3% in the PKO**; BTN's reshove r
-ange widens for value in response.
+2. **Facing an all-in (you cover):** apply the B1 equity drop, then call the wider threshold. Solved example: LJ (65bb) vs BTN 26bb reshove — LJ calls 26.8% in a regular MTT vs **36.3% in the PKO**; BTN's reshove range widens for value in response.
 3. **Facing an all-in (you're covered):** NO equity drop. If anything, tighten — the covering player behind may overcall your spot for the dead money plus your bounty.
 4. **BB defense:** widen both calls and 3-bets vs RFI when you cover the raiser (61.6% → 65.1% solved). BB calls SB all-ins far lighter when the SB has a bounty (15.8% classic → 22.7% PKO solved).
 5. **Big bounty on your own head:** shift your jam range toward hands that play well all-in (pairs over suited broadways), since everyone calls you wider.
@@ -58,8 +56,7 @@ ange widens for value in response.
 - **Shoving wide when short and covered** — you have no fold equity; big stacks are priced to call you light.
 - **Auto-isolating** — sometimes flatting to keep multiple bounties in the pot is worth more.
 - **Jamming low suited connectors in wide-calling spots** — they realize terribly vs calling ranges that include KQs/JTs.
-- **Ignoring your own head** — when your bounty grow
-s, your opponents' ranges widen against you; adjust shape (pairs > suited broadways).
+- **Ignoring your own head** — when your bounty grows, your opponents' ranges widen against you; adjust shape (pairs > suited broadways).
 - **Overfolding to aggression from covering stacks** — they're applying pressure because it's correct, but they're also wider; your calling thresholds should drop (B1) when you cover THEM.
 
 ## Heuristics
@@ -85,8 +82,7 @@ s, your opponents' ranges widen against you; adjust shape (pairs > suited broadw
 - Q: Why shift your jam range toward pocket pairs when you have a large bounty?
   Options: [Opponents call you ~10% wider, and pairs perform better against wide calling ranges, Pairs are stronger in general, Suited hands block bluffs, It doesn't matter]
   Correct: 0
-  Explanation: GTO Wizard: with a bounty on the SB, they prefer shoving pairs over
- KQo/KTs because UTG's calling range is nearly 10% wider in the PKO — pairs realize better vs wide ranges.
+  Explanation: GTO Wizard: with a bounty on the SB, they prefer shoving pairs over KQo/KTs because UTG's calling range is nearly 10% wider in the PKO — pairs realize better vs wide ranges.
 - Q: What is the hardest PKO spot, and what's one adjustment?
   Options: [Middling stack facing an EP short-stack shove — consider flatting/raising small to keep multiple bounties in, AA vs a 3-bet, The bubble as chip leader, Heads-up for the title]
   Correct: 0

@@ -25,8 +25,7 @@ Bounty EV is not constant across a PKO — it peaks early and depletes steadily.
 - **Registration is an EV decision:** in regular MTTs late registration can increase ROI; in PKOs it actively harms win rate.
 
 ## Phase Map
-| Phase | Bounty dynamics 
-| Priority |
+| Phase | Bounty dynamics | Priority |
 |---|---|---|
 | **Early (start → ~first third)** | Peak bounty EV per chip; minimal ICM; everyone covers everyone on hand one | Play from the start; contest bounties; build the covering stack; widest correct gambles |
 | **Mid (field halves)** | Pool depleting; stacks diverge; coverage now matters | Race to cover; pressure players you cover (especially to your right); tighten when covered |
@@ -48,8 +47,7 @@ Bounty EV is not constant across a PKO — it peaks early and depletes steadily.
 ### 3. Gamble early, gamble intelligently
 - PKOs make marginal stack-offs more forgiving: the bounty often compensates for thinner equity margins.
 - In regular ICM, the better mistake is stacking off too tight. In PKOs, the better mistake is often stacking off too wide — especially early.
-- Not blind gambling: recognize when the bounty justifies the variance. Study off-table; in-game, err slightly toward aggr
-ession.
+- Not blind gambling: recognize when the bounty justifies the variance. Study off-table; in-game, err slightly toward aggression.
 
 ## Decision Rules
 1. **Never late-reg a PKO** unless the field is huge and the bounty pool is demonstrably intact.
@@ -76,8 +74,7 @@ ession.
 ## Quiz Spots
 - Tournament starts in 10 minutes, you can play → register from the start (peak bounty EV window)
 - You bust at level 3; field is large; average stack ~1.5x starting → re-enter (conditions met)
-- Mid-stage, you cover the two players to your right with average bounties → widen opens/3-bets against t
-hem specifically
+- Mid-stage, you cover the two players to your right with average bounties → widen opens/3-bets against them specifically
 - Late, 2 tables left, average bounty has halved relative to stacks → tighten toward standard ICM
 - Final table, chip leader has 40% of chips and the biggest head → your shove-calling range vs them widens materially
 
@@ -98,8 +95,7 @@ hem specifically
 ## Source Quotes
 - "Unlike regular MTTs — where late registration can increase ROI — late registration actively harms your win rate in PKOs" — BBZ
 - "There is a race to become a covering stack because covering stacks enjoy a negative risk premium and therefore get to realize bounty EV more efficiently" — BBZ
-- "In traditional ICM: The better mistake is usually stacking off too tight. In PKOs: The better mistake is often stacking off 
-too wide — especially early" — BBZ
+- "In traditional ICM: The better mistake is usually stacking off too tight. In PKOs: The better mistake is often stacking off too wide — especially early" — BBZ
 - "While individual bounties grow through knockouts, the total pool of available bounty EV shrinks" — BBZ
 - "The chip value of bounties trends downward" — GTO Wizard
 
