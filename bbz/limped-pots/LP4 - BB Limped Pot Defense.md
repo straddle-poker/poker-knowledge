@@ -90,7 +90,7 @@ The BB's limped-pot defense is a *solving for how to fold* exercise. Facing the 
 
 ## Cross-References
 - [LP2](LP2 - SB Flop Betting After a Limp.md): the attacker's side of this exact node
-- [S3](../poker-systems/S3 - BB vs SB Limp Stab.md): the raised-pot-family sibling for defending vs stabs
+- [S3](../systems/S3 - BB vs SB Limp Stab.md): the raised-pot-family sibling for defending vs stabs
 - [MW5](../multiway-systems/MW5 - Missed Flop Calls from BB.md): the multiway version of wide-range flop defense
 - gto-fundamentals knowledge topic: MDF/α derivations
 

@@ -17,7 +17,7 @@ hands at specific stack depths.
     `bb-vs-btn.md`, `btn-vs-3bet-sb.md`): frequency summary tables per model
     and depth, plus the raw `class:freq` range strings
 
-- `courses/` — course extracts and reconstructions (structured study notes;
+- `bbz/` — course extracts and reconstructions (structured study notes;
   each file carries frontmatter provenance). System files are named
   `CODE - Title.md` (e.g. `S1 - UTG vs BB C-bet.md`):
   - `systems/` — Simple Poker Systems: 12 systems (S1–S12) covering
@@ -51,10 +51,11 @@ hands at specific stack depths.
 
     python3 ../bbz/straddle-solutions/scripts/solutions_to_llm.py --out preflop
 
-`courses/systems/` and `courses/bubble-mastery/` are copied from the
+`bbz/systems/` and `bbz/bubble-mastery/` are copied from the
 submodule's `extracted/` directory (the extract-transcript skill regenerates
-those from `transcripts/`). The other courses — `pressure-systems/`,
-`bounty-mtt/`, `passive-systems/` — are reconstructions from free public
+those from `transcripts/`). The other six courses — `pressure-systems/`,
+`bounty-mtt/`, `passive-systems/`, `multiway-systems/`, `limped-pots/`,
+`river-simplifications/` — are reconstructions from free public
 sources; each file's frontmatter carries its source URLs and they are not
 course transcripts. Re-run the generator after the captures update, then
 commit. The raw solutions are the source of truth; hand-edits to generated

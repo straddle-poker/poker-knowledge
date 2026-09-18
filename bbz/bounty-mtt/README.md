@@ -15,4 +15,4 @@ Bounty MTT systems — how Progressive Knockout and Mystery Bounty tournaments w
 
 - [`../systems/`](../systems/) — Simple Poker Systems S1–S12 and the preflop primer (the non-bounty baseline).
 - [`../pressure-systems/`](../pressure-systems/) — Pressure Systems P1–P4 (aggression layer; PKO play amplifies pressure dynamics).
-- [`../preflop/`](../preflop/) — solved GTO preflop ranges (cEV/ICM baseline to deviate from).
+- [`../../preflop/`](../../preflop/) — solved GTO preflop ranges (cEV/ICM baseline to deviate from).

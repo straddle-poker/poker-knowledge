@@ -14,4 +14,4 @@ Pressure Poker Systems — the aggression/pressure layer of the BBZ systems ecos
 ## Related
 
 - [`../systems/`](../systems/) — Simple Poker Systems S1–S12 and the preflop primer. The P-series assumes those foundations and cross-references them.
-- [`../preflop/`](../preflop/) — solved GTO preflop ranges for hand-level grounding of P1/P2 decisions.
+- [`../../preflop/`](../../preflop/) — solved GTO preflop ranges for hand-level grounding of P1/P2 decisions.

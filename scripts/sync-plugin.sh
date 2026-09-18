@@ -9,7 +9,7 @@ mkdir -p "$K/preflop-ranges" "$K/poker-systems" "$K/bubble-mastery"
 rsync -a --delete --exclude 'KNOWLEDGE.md' --exclude '00-guide.md' \
   "$REPO/preflop/" "$K/preflop-ranges/"
 rsync -a --delete --exclude 'KNOWLEDGE.md' --exclude 'README.md' \
-  "$REPO/courses/systems/" "$K/poker-systems/"
+  "$REPO/bbz/systems/" "$K/poker-systems/"
 rsync -a --delete --exclude 'KNOWLEDGE.md' --exclude 'README.md' \
-  "$REPO/courses/bubble-mastery/" "$K/bubble-mastery/"
+  "$REPO/bbz/bubble-mastery/" "$K/bubble-mastery/"
 echo "Synced to $K"
