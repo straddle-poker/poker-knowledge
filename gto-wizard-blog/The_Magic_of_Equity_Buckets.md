@@ -1,0 +1,174 @@
+---
+title: The Magic of Equity Buckets
+url: https://blog.gtowizard.com/the-magic-of-equity-buckets/
+date: 2024-08-26T03:00:03.000Z
+author: Unknown author
+source: GTO Wizard Blog
+---
+
+One of the most daunting aspects of learning the modern game of poker, especially with solver technology, is simply how much information there is. If you are new to solver study and are then presented with a hand matrix featuring a wide range, a variety of bet sizes and all of the actions mix, it can be overwhelming.
+The human brain has devised _intrinsic_ **ways to reduce the demands on your working memory**. Thankfully, human brains have also built poker training software like GTO Wizard that has _external_ ways to help alleviate things further.
+## **Chunking**
+****{{center}}A cognitive strategy that involves grouping individual pieces of information into larger, more manageable units, or “chunks.”{{/center}}****
+This technique helps improve the efficiency of short-term memory and aids in the process of learning.
+Chunking was first described by cognitive psychologist **George A. Miller** in his 1956 paper, “The Magical Number Seven, Plus or Minus Two,” which explored the limits of human memory. The research started with the observation that most people can hold between five and nine ‘objects’ in their memory at one time. However, by grouping data together, the mind can hold much more information.
+{{grid: 3fr 1fr}}
+**Chunking leverages the brain’s natural tendency to find patterns**. For example, consider a long string of numbers, such as 1-9-4-7-1-9-7-3. Memorizing these digits individually is not easy. However, if you group them into chunks, like 1947 and 1973, the task becomes easier. You probably automatically framed the two sets of numbers as the years 1947 and 1973 as an easy way to remember them.
+![Crushing a top HUNL poker bot](https://blog.gtowizard.com/content/wp-content/uploads/2023/06/gto-wizard-ai-solver-explained-image-11.png)
+{{/grid}}
+#### **Chunking in Chess**
+The concept of chunking in chess was studied extensively by psychologist Adriaan de Groot and later by Herbert Simon and William Chase. Their research revealed that expert chess players do not necessarily have superior memory compared to novices but possess an advanced ability to **recognize and recall larger chunks of information relevant to the game**.
+In one experiment, Simon and Chase presented chess positions to both novice and expert players. The experts could remember and reconstruct the positions of pieces on the board far better than the novices when the pieces were **arranged in meaningful, game-like patterns**. However, when pieces were **placed randomly** , the experts’ advantage diminished significantly. This finding highlighted that experts’ superior performance was due to their ability to recognize and remember larger, meaningful chunks of information.
+#### **Chunking in Poker**
+You already use chunking in a variety of ways at the poker table. For example, by using a {{tooltip-title: HUD}} and **color coding** your stats. If a player has a VPIP of 35% or more, you may, for example, color code that stat in green. You don’t need to observe every single hand played by that player; the number itself might be enough of a ‘chunk’ to indicate they have a wide range. If not, then simply seeing the number in green might signal enough for you to know how to adjust your strategy.
+{{tooltip-content: HUD}}
+**Heads-Up Display (HUD)**  
+A tool used in online poker games to track and display poker statistics of the players on the table in real-time.
+{{/tooltip-content}}
+We chunk in other ways, too. We frame hands as ‘overpairs’ to cover every single pocket pair above the highest-ranked card. We have ‘suited connectors’ to describe any consecutive hand of the same suit, and so on. You would not be able to multitable were it not for chunking. You don’t need to think about the merits of **82** o under the gun; you just fold it because it is part of the range you would deem ‘trash.’
+## **Equity Buckets**
+Perhaps the most helpful form of chunking in GTO Wizard, for me, has been the “[Equity Buckets](https://blog.gtowizard.com/what-is-equity-in-poker/#equity_buckets)” feature. This has made it easier to identify range morphologies when looking at two range matchups.
+#### **EQ Buckets – Simple**
+The **_simple_ EQ buckets** group the hands in the range as:
+{{grid: 4fr 1fr}}
+  1. **Best hands**
+  2. **Good hands**
+  3. **Weak hands**
+  4. **Trash hands**
+
+![Poker subsets and abstractions](https://blog.gtowizard.com/content/wp-content/uploads/2022/11/poker-subsets-and-abstractions-image-5.png)
+{{/grid}}
+What makes a hand ‘Best’ or ‘Trash’ is a relative thing. On a dry flop, two pair will usually be a ‘Best hand,’ but on a connected monotone flop, it might be a ‘Weak hand.’ Broadly speaking, I would categorize them as:
+  * **Best hands** – Nutted hands we are prepared to stack off with
+  * **Good hands** – Hands we want to value bet
+  * **Weak hands** – Hands with some equity that we want to cheaply get to showdown with
+  * **Trash hands** – Hands with very low equity that will only win the pot by bluffing
+
+The equity buckets are a much simpler way to confer a lot of information. For example, range advantage:
+##### **Range Comparison on K♦Q♣2♠**
+![The Magic of Equity Buckets](https://blog.gtowizard.com/content/wp-content/uploads/2024/08/gto-wizard-the-magic-of-equity-buckets-image-1.png) Equity ****matrices****
+This is [BB vs UTG in a single-raised pot on **K♦Q♣2♠**](https://app.gtowizard.com/solutions?custree_id=6fb065cb-8618-4858-8229-a21d9d69c1ad&cussol_id=15bafb06-1e94-4596-a156-8d386dbf333e&solution_type=gwiz&gametype=MTTGeneral&depth=60.125&preflop_actions=R2.3-F-F-F-F-F-F-C&flop_actions=X-R2-C&turn_actions=X-R5.55-C&river_actions=X-RAI&history_spot=8&board=KdQc2s&soltab=range&tmpId=1719394907105&gmfs_solution_tab=ai_sols&gmfft_sort_key=0&gmfft_sort_order=asc&ref=blog.gtowizard.com). You can look at the form of the range ([range morphology](https://blog.gtowizard.com/range-morphology/)) and the coloring of the hands in the **equity matrix** to see this. You’ll see that proportionally, there are more hands colored green and yellow (medium to high-equity hands) for UTG and a lot more orange (low-equity hands) for the BB.
+Or… you could just look at the **equity buckets** :
+{{width: 33%}}
+![The Magic of Equity Buckets](https://blog.gtowizard.com/content/wp-content/uploads/2024/08/gto-wizard-the-magic-of-equity-buckets-image-2.png)Equity ****buckets****
+{{/width}}
+UTG has more best hands and more good hands. They even beat the BB for the weak hands. The BB, by comparison, has a majority (57.6%) in trash hands. I know, even without looking at the ranges, that this will be a range-check for the BB followed by a range-bet for UTG. The result of a narrow, linear range against a wide, capped range.
+##### **Range Comparison on A♠8♦2♣ A♣ 7♥**
+The image below shows the equity buckets for a different board. This is UTG vs BTN in a single-raised pot, it has gone bet-call on the flop and turn:
+{{width: 33%}}
+![The Magic of Equity Buckets](https://blog.gtowizard.com/content/wp-content/uploads/2024/08/gto-wizard-the-magic-of-equity-buckets-image-3.png)Equity ****buckets****
+{{/width}}
+Without seeing the flop or the ranges, I’d know UTG has a polarized range and the BTN has a condensed range. UTG has more of the best hands and also more trash hands, with nothing in the middle. The BTN has more of the medium-strength hands that fill up the middling buckets. I would expect a lot of large bets from UTG, with the best and worst hands remaining in their range, checking the middle of the range.
+Which is what happens. This particular matchup takes place on an [**A♠8♦2♣ A♣7♥** board](https://app.gtowizard.com/solutions?custree_id=6fb065cb-8618-4858-8229-a21d9d69c1ad&cussol_id=15bafb06-1e94-4596-a156-8d386dbf333e&solution_type=gwiz&gametype=MTTGeneral&depth=60.125&preflop_actions=R2.3-F-F-F-F-C-F-F&history_spot=12&soltab=range&tmpId=1719427669018&gmfs_solution_tab=ai_sols&gmfft_sort_key=0&gmfft_sort_order=asc&board=As8d2cAc7h&flop_actions=R1.4-C&repturntab=swv_turns&turn_actions=R8.2-C&river_actions=R15.5&ref=blog.gtowizard.com):
+![The Magic of Equity Buckets](https://blog.gtowizard.com/content/wp-content/uploads/2024/08/gto-wizard-the-magic-of-equity-buckets-image-4.png)Equity ****matrices****
+This is a good example of chunking. I don’t need to look at every hand in the range to devise a strategy. I can look at the four EQ buckets to understand and derive what my overall strategy should look like.
+#### **EQ Buckets – Advanced**
+The **_advanced_ EQ buckets** are also helpful; for instance, they are good at showing who has a nut advantage:
+##### **Range Comparison on K♦5♠5♣**
+![The Magic of Equity Buckets](https://blog.gtowizard.com/content/wp-content/uploads/2024/08/gto-wizard-the-magic-of-equity-buckets-image-5.png) Equity ****matrices****
+This is on a [**K♦5♠5♣** flop](https://app.gtowizard.com/solutions?custree_id=6fb065cb-8618-4858-8229-a21d9d69c1ad&cussol_id=15bafb06-1e94-4596-a156-8d386dbf333e&solution_type=gwiz&gametype=MTTGeneral&depth=60.125&preflop_actions=R2.3-F-F-F-F-F-F-C&flop_actions=X-R2-C&turn_actions=X-R5.55-C&river_actions=X-RAI&history_spot=8&board=Kc5d5s&soltab=range&tmpId=1719468383095&gmfs_solution_tab=ai_sols&gmfft_sort_key=0&gmfft_sort_order=asc&ref=blog.gtowizard.com). As you can see from all the red squares in the BB’s range they miss this flop most of the time, other than their rare 5-x. UTG, by contrast, has lots of King-x and all their misses are much stronger too. They have lots of pairs and Ace-x which are usually ahead.
+It’s easier though to get the full picture from the advanced equity buckets:
+{{width: 33%}}
+![The Magic of Equity Buckets](https://blog.gtowizard.com/content/wp-content/uploads/2024/08/gto-wizard-the-magic-of-equity-buckets-image-6.png)Equity ****buckets****
+{{/width}}
+**The advanced equity buckets explicitly put a figure on the equity of portions of your range**. As you can see, the BB has 77.7% of its range with less than 50% equity, and most of it has less than 25% equity. UTG has 81.4% of their range over 50% equity.
+Despite UTG’s significant range advantage, they bet only slightly more than half the time. This is because of what is happening with the top advanced EQ bucket. The BB has 6.8% of its hands in the 90–100% equity bucket, compared to just 2.9% for UTG.
+Hover your mouse over the 90–100% bucket, and you will see the specific hands light up:
+![The Magic of Equity Buckets](https://blog.gtowizard.com/content/wp-content/uploads/2024/08/gto-wizard-the-magic-of-equity-buckets-image-7.png)Top advanced (90–100%) EQ bucket highlighted
+It is **5-x** and **KK**. UTG is the only one with **KK** , but the BB has every combination of suited 5-x in their range, which UTG does not.
+UTG has range advantage, but the BB has nut advantage. As you will have gleaned from our [article on the mechanics of c-bet sizing](https://blog.gtowizard.com/the-mechanics-of-c-bet-sizing/), it is nut advantage that primarily drives bet sizing. UTG bets small here, because they are worried about running into nutted hands.
+#### **EQ Buckets in the Strategy/Filters Tab**
+Equity buckets are not only displayed in the “**Ranges** ” tab but also in the “**Strategy** ” tab. They can be found in the bottom-right corner, under the “**Filters** ” subtab.
+Let’s explore in the context of this [**A♣Q♦8♥** flop](https://app.gtowizard.com/solutions?custree_id=6fb065cb-8618-4858-8229-a21d9d69c1ad&cussol_id=15bafb06-1e94-4596-a156-8d386dbf333e&solution_type=gwiz&gametype=MTTGeneral&depth=60.125&preflop_actions=R2.3-F-F-F-F-F-F-C&flop_actions=X-R2&history_spot=10&board=AsQh8c&soltab=strategy&tmpId=1719394907105&gmfs_solution_tab=ai_sols&gmfft_sort_key=0&gmfft_sort_order=asc&ref=blog.gtowizard.com) where UTG c-bets small and the BB responds as follows:
+{{grid: 4fr 1fr}}
+![The Magic of Equity Buckets](https://blog.gtowizard.com/content/wp-content/uploads/2024/08/gto-wizard-the-magic-of-equity-buckets-image-9.png)Hand ****matrix**** : strategy![The Magic of Equity Buckets](https://blog.gtowizard.com/content/wp-content/uploads/2024/08/gto-wizard-the-magic-of-equity-buckets-image-8.png)
+{{/grid}}
+The BB mostly folds, calls ⅓ of the time, and check-raises ~10% of the time for a mix of bet sizes. You can get a rough idea of which hands do what by looking at the shape of the range, but you can simplify things by looking at the equity buckets:
+![The Magic of Equity Buckets](https://blog.gtowizard.com/content/wp-content/uploads/2024/08/gto-wizard-the-magic-of-equity-buckets-image-10.png)EQ ****buckets**** : strategy
+###### Flop BB X/**Raise**
+Our best and weak hands are most eager to check-raise. When we hover over the best hands bucket, this is what it contains:
+{{width: 75%}}
+![The Magic of Equity Buckets](https://blog.gtowizard.com/content/wp-content/uploads/2024/08/gto-wizard-the-magic-of-equity-buckets-image-11.png)BB’s ****best**** hands strategy (when UTG c-bets 33% pot)
+{{/width}}
+Our strongest Ace-x check-raise. These are hands (like **AK** o) that dominate other Ace-x hands. Sets and two pair also raise for value.
+It also makes sense that our **good hands** call. If we hover over the good hands bucket in the tab:
+{{width: 75%}}
+![The Magic of Equity Buckets](https://blog.gtowizard.com/content/wp-content/uploads/2024/08/gto-wizard-the-magic-of-equity-buckets-image-12.png)BB’s ****good**** hands strategy (when UTG c-bets 33% pot)
+{{/width}}
+These are all hands that beat bluffs and some value but do not perform well when their check-raise gets called. **AT** s, for example, is probably behind UTG’s bet-call range. The better option is to call instead, playing our hand as a bluff catcher.
+The bluffs are mostly **weak hands** , not trash hands. Again, by hovering over the weak hands bucket we can parse out the bluffs:
+{{width: 75%}}
+![The Magic of Equity Buckets](https://blog.gtowizard.com/content/wp-content/uploads/2024/08/gto-wizard-the-magic-of-equity-buckets-image-13.png)BB’s ****weak**** hands strategy (when UTG c-bets 33% pot)
+{{/width}}
+Bluffs, by definition, are bad hands, but we are on the flop with two cards to come. We need some level of improvability in case we are called. That is why our bluffs consist of hands like **JT** (gutshot) and assorted bottom pair **8** -x hands (merge-raises). **86** s, for example, can make **TT** fold, **JT** s call, and can improve to two pair, trips, or a backdoor flush against the Ace-x type hands that call.
+Rather than darting around the hand matrix looking for the bluffs, which can be overwhelming, the equity buckets have allowed us to quickly identify them.
+###### River After X/**Call** Flop and XX Turn
+Let’s fast forward the hand and say the BB just calls the bet, the turn is a **2♠** , it goes check-check, and the river is a **7♦**. This is the BB’s first action:
+{{grid: 4fr 1fr}}
+![The Magic of Equity Buckets](https://blog.gtowizard.com/content/wp-content/uploads/2024/08/gto-wizard-the-magic-of-equity-buckets-image-15.png)Hand ****matrix**** : BB’s river probe strategy![The Magic of Equity Buckets](https://blog.gtowizard.com/content/wp-content/uploads/2024/08/gto-wizard-the-magic-of-equity-buckets-image-14.png)
+{{/grid}}
+The BB bets almost half the time. Let’s glance at the EQ buckets for more insights:
+![The Magic of Equity Buckets](https://blog.gtowizard.com/content/wp-content/uploads/2024/08/gto-wizard-the-magic-of-equity-buckets-image-16.png)EQ ****buckets**** : BB’s river probe strategy
+The value bets are hands with at least 80% equity. **The hand classes are also shown** in the “Filters” subtab, quickly revealing that the only big hand that doesn’t bet is a set because the only set is 88, unblocking UTG’s betting range. This is also to protect the checking range.
+Once again, the middle of the range plays their hand as a bluff-catcher by checking. If we click on the good and weak hands, we get this:
+{{width: 75%}}
+![The Magic of Equity Buckets](https://blog.gtowizard.com/content/wp-content/uploads/2024/08/gto-wizard-the-magic-of-equity-buckets-image-17.png)BB’s ****good and weak**** hands river strategy
+{{/width}}
+Essentially, second pair, which only gets called if it is beaten but is ahead of the bluffs.
+The big difference this time, on the river, is that our bluffs come from the trashy part of the range. According to the advanced equity buckets, these are hands with less than 25% equity:
+{{width: 75%}}
+![The Magic of Equity Buckets](https://blog.gtowizard.com/content/wp-content/uploads/2024/08/gto-wizard-the-magic-of-equity-buckets-image-18.png)BB’s bottom advanced ****(0–25%) EQ bucket**** river strategy
+{{/width}}
+This is a valuable lesson that is more easily grasped via the equity buckets. **On the flop** , we don’t want to bluff with complete air because we need some element of improvability in case we get called, so we use our ‘Weak Hands.’ **On the river** , however, we pick our worst hands to bluff with. With no cards to come, we are better off bluffing with a hand we know is going to lose otherwise, compared to a hand like second pair, which could be ahead.
+Using GTO Wizard’s equity buckets feature, we’ve been able to identify more simply and quickly:
+  * The overall shape of the ranges
+  * The value/bluffs/bluff catchers
+  * Which player has range and/or nut advantage
+
+This literal form of chunking has freed up a lot of mental space for us.
+## **Working Memory in Poker**
+Working memory is:
+****{{center}}A cognitive system that allows people to temporarily store and manipulate small amounts of information in a way that makes it easily accessible.{{/center}}****
+**My biggest issue as a poker player revolved around working memory**. I used to struggle to keep a whole range in my head while I was playing a hand. Even when regularly looking at solver outputs, I found it difficult to look at the shape of a range and immediately identify the value, the bluffs, the medium-strength hands, the strategy, etc. There are 169 hands displayed on a hand matrix (1,326 when you drill down to the unique suit combinations), and I thought it was my job to keep track of every single one of them. It was mentally exhausting and basically impossible.
+It’s still an issue for me, but it has greatly reduced. The equity buckets and other similar filters have allowed me to be much more efficient in my study and play. I’d say the chunking process has gone something like this in my head:
+![The Magic of Equity Buckets](https://blog.gtowizard.com/content/wp-content/uploads/2024/08/gto-wizard-the-magic-of-equity-buckets-image-extra-1.png)
+Instead of trying to hold every hand in the matrix in my head, the **first level of abstraction** is simply the shape of the **range**.
+  * Is it a linear range, a capped range, a polar range, etc?
+  * Does it have lots of high cards, lots of Ace-x, lots of suited hands, etc?
+  * What sort of flops does my range like?
+
+{{width: 75%}}
+![The Magic of Equity Buckets](https://blog.gtowizard.com/content/wp-content/uploads/2024/08/gto-wizard-the-magic-of-equity-buckets-image-19.png)Overall shape of range
+{{/width}}
+The **second level of abstraction** is the **equity buckets**.
+  * Do I have lots of nutted hands and good hands that should value-bet?
+  * Who has the most trash?
+  * What bucket do my bluffs come from?
+  * Who has range and nut advantage?
+  * How will this influence bet sizing and frequency?
+
+{{width: 33%}}
+![The Magic of Equity Buckets](https://blog.gtowizard.com/content/wp-content/uploads/2024/08/gto-wizard-the-magic-of-equity-buckets-image-20.png)Range broken down in EQ buckets
+{{/width}}
+The **third level of abstraction** focuses on how specific **hand classes** play within the buckets.
+  * What do my pairs do?
+  * How do my draws play?
+  * What part of my range becomes a bluff catcher?
+  * What types of hands do I bluff with?
+
+{{width: 50%}}
+![The Magic of Equity Buckets](https://blog.gtowizard.com/content/wp-content/uploads/2024/08/gto-wizard-the-magic-of-equity-buckets-image-21.png)EQ buckets filled with hand classes
+{{/width}}
+The **fourth level of abstraction** is where I get into the specifics of each **hand**. For example, why does a set of deuces always bet, but a set of nines does not? That will be an [unblocker](https://blog.gtowizard.com/understanding-blockers-in-poker/) effect. 22 unblocks the calling range of 9-x and 8-x, a set of nines heavily blocks top pair, and so on.
+{{width: 75%}}
+![The Magic of Equity Buckets](https://blog.gtowizard.com/content/wp-content/uploads/2024/08/gto-wizard-the-magic-of-equity-buckets-image-22.png)Hand classes consist of hands
+{{/width}}
+Eventually, we can reach a point where we are **out of abstractions**. That’s when I think about what a specific **hand combination** would do. Does **9♦9♣** play differently to **9♦9♥** , and so on. I spend much less time on this level, but when I do it’s usually for river decisions.
+{{grid: 1fr 2fr}}
+![The Magic of Equity Buckets](https://blog.gtowizard.com/content/wp-content/uploads/2024/08/gto-wizard-the-magic-of-equity-buckets-image-23.png)Hands drilled down to all the suit-specific combinations![The Magic of Equity Buckets](https://blog.gtowizard.com/content/wp-content/uploads/2024/08/gto-wizard-the-magic-of-equity-buckets-image-24.png)
+{{/grid}}
+## **Conclusion**
+My biggest issue with working memory was **overwhelm**. It was simply a case of me trying to juggle every single hand in the ranges I was looking at. Chunking helped me reduce the required mental bandwidth by **thinking in more manageable terms**. Instead of every single hand, I would think in terms of ‘how does Ace-x play’ or ‘what to do with flush draws.’ Sometimes, you can keep things as simple as this. Other times you can drill down into specific hands.
+By chunking, you have freed up working memory, which you can then use for when the situation actually requires more detail.
+**The equity buckets feature presents you with a much more manageable, easily digestible overview** of range advantage, range morphology and overall strategy. It is mentally much easier to pick up these buckets and see how far you can carry your strategy before going into further detail.
+* * *
