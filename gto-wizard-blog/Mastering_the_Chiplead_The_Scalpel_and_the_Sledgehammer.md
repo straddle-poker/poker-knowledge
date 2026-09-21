@@ -1,0 +1,62 @@
+---
+title: Mastering the Chiplead: The Scalpel and the Sledgehammer
+url: https://blog.gtowizard.com/mastering-the-chiplead-the-scalpel-and-the-sledgehammer/
+date: 2023-04-24T03:00:17.000Z
+author: Unknown author
+source: GTO Wizard Blog
+---
+
+When you have a lot of chips at a final table or in another situation with extreme [bubble factors](https://blog.gtowizard.com/what-is-the-bubble-factor-in-poker-tournaments/), you are in a great spot. Not only is your stack worth a lot because of the raw value of your chips, but covering other stacks enables you to accumulate more chips by winning pots against opponents who wish, quite appropriately, to avoid risking elimination by getting all-in against you.
+This is sometimes referred to as “bullying” the table, but in reality, playing a big stack is more about subtlety than raw aggression. The ideal tool is the scalpel, not the sledgehammer. Your objective is to **apply a lot of pressure to your opponents without taking on a lot of risk yourself**.
+****Playing a big stack is more about subtlety than raw aggression.****
+Consider a 9-handed final table with an average stack of 35bb. You are the chip leader on the BTN with 88bb, and the Blinds have above-average stacks of 40bb and 45bb. If you were to open-shove, you would apply 45bb of pressure to the Blinds, but you would also risk 45bb yourself. That’s the sledgehammer. It would be very hard for these players to call you, but if they did call, they would almost certainly have a big hand.
+[The solver's preferred approach](https://app.gtowizard.com/solutions?gametype=MTTGeneral_ICM9m1000PTFT&depth=25.125&stacks=25.125-35.125-20.125-30.125-17.125-15.125-88.125-40.125-45.125&preflop_actions=F-F-F-F-F-F&history_spot=6&gmfft_sort_key=7&gmfft_sort_order=desc&gmff_favorite=false&ref=blog.gtowizard.com) is to open for a minimum raise with 74% of hands, including those as weak as **82** s and **Q2** o.
+![](https://blog.gtowizard.com/content/2026/03/gto-wizard-mastering-the-chiplead-the-scalpel-and-the-sledgehammer-image-2.png)
+This is the scalpel. At minimal risk to yourself, you exert tremendous pressure on the Blinds. Few hands are strong enough to risk a big confrontation with you, so **the Blinds fold relatively often and 3-bet rarely**.
+[Here](https://app.gtowizard.com/solutions?gametype=MTTGeneral_ICM9m1000PTFT&depth=25.125&stacks=25.125-35.125-20.125-30.125-17.125-15.125-88.125-40.125-45.125&preflop_actions=F-F-F-F-F-F-R2-F&history_spot=8&gmfft_sort_key=7&gmfft_sort_order=desc&ref=blog.gtowizard.com) is BB’s response to this raise.
+![](https://blog.gtowizard.com/content/2026/03/gto-wizard-mastering-the-chiplead-the-scalpel-and-the-sledgehammer-image-3.png)
+**Not even KK** is strong enough to be excited about a big pot! 24% may not seem like an especially high folding frequency, but in [a chip EV scenario with 45bb stacks](https://app.gtowizard.com/solutions?gametype=MTTGeneralV2&depth=44.125&preflop_actions=F-F-F-F-F-F-R2.1-F&history_spot=8&gmfft_sort_key=0&gmfft_sort_order=desc&gmff_favorite=false&stacks=44.125-44.125-44.125-44.125-44.125-44.125-44.125-44.125-44.125&gmff_stacks_type=SYMMETRIC&ref=blog.gtowizard.com), where being covered is irrelevant, the BB folds just 12% to a BTN raise, despite the BTN having a stronger range.
+Of course, the BTN gets fewer folds than they would with a larger raise, but they also take on minimal risk themselves, so the ratio of risk to reward is better. They get plenty of immediate {{tooltip-title: fold equity}}, and even when the BB does not fold, BTN usually gets to see the flop in position. 
+{{tooltip-content: fold equity}}
+**Fold Equity**  
+The amount of value a player will win by making another player fold.
+{{/tooltip-content}}
+Being in position after the flop is already a recipe for [**realizing more than your share of equity**](https://blog.gtowizard.com/equity-realization/), but this effect, too, is magnified by your covering stack. Just like before the flop, you can expect your opponent to [**fold disproportionately often to flop bets and to raise rarely**](https://blog.gtowizard.com/how-icm-impacts-postflop-strategy/).
+## Responding to a Raise
+Some advantages of being the chip leader are even subtler than this. For example, the fact that everyone in front of you in our example folded is not a coincidence. Like the Blinds, they should seek to avoid confrontation with you and thus open a tighter range when you are behind them, especially when you are the BTN or BB.
+****When someone raises in front of you, you do not have free rein to bully them.****
+This means that when someone does raise in front of you, you do not have free rein to bully them. Their **risk premium should be built into their opening strategy** so that opening at all suggests they have a strong hand with which they are ready to play a big pot.
+The [BTN’s response to an open from the largest stack in front of them](https://app.gtowizard.com/solutions?gametype=MTTGeneral_ICM9m1000PTFT&depth=25.125&stacks=25.125-35.125-20.125-30.125-17.125-15.125-88.125-40.125-45.125&preflop_actions=F-R2-F-F-F-F&history_spot=6&gmfft_sort_key=7&gmfft_sort_order=desc&gmff_favorite=false&ref=blog.gtowizard.com), the UTG1 player with 35bb, is to call 16% and raise 9%.
+![](https://blog.gtowizard.com/content/2026/03/gto-wizard-mastering-the-chiplead-the-scalpel-and-the-sledgehammer-image-4.png)
+Even **AK** o and **QQ** are not pure raises! BTN’s response here is not much more aggressive than in a [35bb chip EV scenario](https://app.gtowizard.com/solutions?gametype=MTTGeneralV2&depth=35.125&preflop_actions=F-R2-F-F-F-F&history_spot=6&gmfft_sort_key=0&gmfft_sort_order=desc&gmff_favorite=false&stacks=35.125-35.125-35.125-35.125-35.125-35.125-35.125-35.125-35.125&gmff_stacks_type=SYMMETRIC&ref=blog.gtowizard.com), where they raise 6% and call 16%.
+UTG1’s range of 14% of hands is stronger in this final table scenario than the 18% they would open in a cEV scenario. So, the BTN is still doing some “bullying”—they respond more aggressively despite this stronger range—but they can’t get too out of line. They never shove to put UTG1’s survival immediately at stake, for instance. In fact, their 3-bet to just 5bb. But those 5bb generate **disproportionate fold equity both before and after the flop**.
+This is **_the scalpel_** approach🔪
+## When the Sledgehammer Is Appropriate
+With much shorter stacks, it is correct to use **_the all-in sledgehammer_** approach🔨
+[Here’s an example](https://app.gtowizard.com/solutions?soltab=strategy&gametype=MTTGeneral_ICM9m1000PTFT&depth=9.125&stacks=9.125-19.125-23.125-15.125-13.125-17.125-21.125-7.125-11.125&history_spot=6&stratab=strategy&gmfft_sort_key=9&gmfft_sort_order=asc&gmff_favorite=false&preflop_actions=F-F-F-F-F-F&ref=blog.gtowizard.com) where the average stack is 15bb, the BTN has **21bb** , and the Blinds have **7b** and **11bb**. The BTN is not actually the chip leader, but once the biggest stack has folded, they can play as though they were.
+They don’t get to open the 74% of hands the big stack did when they could use the smaller, scalpel-style raise. Instead, they open 55% of hands, mostly as a shove.
+![](https://blog.gtowizard.com/content/2026/03/gto-wizard-mastering-the-chiplead-the-scalpel-and-the-sledgehammer-image-5.png)
+The problem with the small raise is that it **encourages the Blinds to shove** , now that their stacks are short enough for that to offer a reasonable risk:reward ratio. Even as the covering stack, BTN mostly wants to avoid this outcome. Very few hands—only the biggest pocket pairs and suited Aces—are strong enough to raise small hoping to induce these shoves. Even AKo prefers to simply shove and maximize fold equity.
+****Even as the covering stack, you mostly want to avoid big confrontations.****
+The BTN shoves some relatively weak hands—**85** s, **J3** s, etc.—despite the Blinds being rather short. The SB, as the shortest remaining stack, faces less ICM pressure than other players, but even they should mostly fold. The solver has them calling just 21%, folding hands as strong as **44** , **K9** s, and **JT** s despite having just 6.5bb after posting.
+This is [ICM chicken](https://blog.gtowizard.com/the-most-powerful-play-in-poker/) in full effect. By moving all-in themselves, the BTN denies this otherwise lucrative option to the Blinds, forcing them to either fold more often or take a huge risk that will be bad for both players.
+## Exploitative ICM Adjustments
+ICM simulations rely heavily on your opponents’ responses, even more than standard solver solutions. Chip EV simulations are zero-sum, so any EV your opponent loses is a gain for you. [ICM doesn’t work like that](https://blog.gtowizard.com/the-limitations-of-nash-equilibrium-in-icm-spots/#ev_leakage), though. **Your opponents’ mistakes can also cost you money** , blowing up both of you to the benefit of the rest of the table(s).
+****ICM simulations rely heavily on your opponents’ responses.****
+That can be frustrating when it happens. It helps to remember that, more commonly, you benefit from these mistakes when you are one of the players not involved in the pot and two of your opponents take unnecessary risks against one another. But if you suspect your opponents do not understand ICM as well as you, there are some adjustments you can make.
+As we’ve seen here, ICM can incentivize some big folds. Expect less ICM-aware opponents to be guided by the intuition they’ve trained in spots where survival was not as important. Many will not fold **44** or **JT** s in the SB to the BTN shove in the above example. Against them, you will not be able to shove as wide and will need to open tighter.
+Similarly, if you suspect the BB’s response to a BTN raise in the {{tooltip-title: deep-stacked}} scenario would more closely resemble that of the chip EV model, then your BTN opening range should look more like the one in the cEV model as well, which would mean opening 50% of hands rather than 70%. It’s unfortunate to miss those opportunities, but **you can’t force them**. That will only lead to big confrontations that are bad for both you and the BB and good for your other opponents.
+{{tooltip-content: deep-stacked}}
+**Deep stack**  
+A large number of big blinds (bb) relative to the average stack or stakes being played, usually referring to a player who is more than 100bb deep. See SPR.
+{{/tooltip-content}}
+That said, players who do not understand ICM may be weak in other ways as well. For example, they may not appreciate why **92** s or **Q5** o should call a minimum opening raise. Their default, ICM-oblivious strategy may be very passive in the BB (this is a common leak), leading them to inadvertently play a strategy more appropriate for the final table dynamics. In that case, the ICM strategy shown above should work well for you. 
+Similarly, your **{{tooltip-title: floats}} and 3-bet bluffs will be less effective** against an UTG1 player who does not recognize the danger of getting all-in against you. If they open the appropriate 14% of hands (as opposed to the 18% cEV would have them open) but then play too loose and aggressive when the chip leader challenges them, that will cost both of you money and you’d be better off playing more cautiously against them.
+{{tooltip-content: floats}}
+**Float**  
+To call a bet postflop with a weak hand with the intention of bluffing on a later street to win the pot.
+{{/tooltip-content}}
+However, this would be a strange player who correctly adjusted their opening range for ICM but then threw it out the window when it came to responding to pressure from a covering stack. The more likely leak is that the player will simply open too wide in the first place and only later, after you 3-bet them or raise their flop continuation bet, appreciate the danger they are in. Against these players, an even more aggressive strategy than that suggested by the ICM model would be correct.
+## Conclusion
+Except when stacks are very shallow, playing a big stack at a final table is not about hyper-aggressive “bullying” that puts your opponents to the test at every opportunity. It is more about picking up **small pots with minimal risk** , exploiting their justified fear of engaging you in a significant confrontation from the outset. Once they do show a willingness to contest a pot, such as by open raising in front of you or three-betting your open, your response should be **measured and cautious** unless you suspect they misunderstand ICM.
+* * *
